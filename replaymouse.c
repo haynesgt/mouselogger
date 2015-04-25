@@ -1,3 +1,7 @@
+/* Send output from logmouse to this file to get it to replay the mouse events.
+ * Gavin Haynes. 2012.
+ */
+
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
 #include <X11/extensions/XTest.h>

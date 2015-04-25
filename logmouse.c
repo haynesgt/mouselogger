@@ -1,8 +1,5 @@
 /*
- * Usage: Run the program. Left click to place a node in the path. Middle click
- * to finish the path. 3 seconds after the middle click, the mouse will 
- * automatically be warped through the path, pausing for 30 milliseconds at each
- * node.
+ * Records where the mouse clicks, recording which buttons were pressed and released, and when.
  *
  * Compile with:
 	gcc -o logmouse -I/usr/X11R6/include -L/usr/X11R6/lib logmouse.c -lX11 -lXtst
